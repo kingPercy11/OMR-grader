@@ -48,5 +48,5 @@ The script will process the image, detect the selected answers, and display the 
 
 ## Example
 ```bash
-Enter the path to the input image: path/to/your/quiz_answer_sheet.jpg
-total score: 80.00%
+Enter the path to the input image: ./test_02.png
+total score: 40.00%

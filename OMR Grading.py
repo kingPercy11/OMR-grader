@@ -6,7 +6,7 @@ import cv2
 
 
 image_path = input("Enter the path to the input image: ")
-ANSWER_KEY = {0: 1, 1: 4, 2: 0, 3: 4, 4: 0}#answers for only five here
+ANSWER_KEY = {0: 1, 1: 4, 2: 0, 3: 4, 4: 0}#answers for only five here add asper req.
 image = cv2.imread(image_path)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 blurred = cv2.GaussianBlur(gray, (5, 5), 0)
